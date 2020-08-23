@@ -1,0 +1,156 @@
+@media (min-width: 992px) {
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px 20px 50px 20px;
+}
+
+article{
+	display: inline-block;
+	background-color: gray;
+	border: 2px solid black;
+	width: 29%;
+	margin: 10px 10px 10px 10px;
+
+}
+
+.article1 {
+	margin-left: 60px;
+}
+
+section {
+	float: right;
+	font-weight: bold;
+	padding: 5px 40px 5px 40px;
+	border: 1.5px solid black;
+	font-family: helvetica;
+}
+
+#section1 {
+	background-color: pink; 
+}
+
+#section2 {
+	background-color: red;
+	color: white;
+}
+
+#section3 {
+	background-color: yellow;
+}
+
+p {
+	padding: 20px 10px 5px 10px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px 20px 50px 20px;
+}
+
+article{
+	display: inline-block;
+	background-color: gray;
+	border: 2px solid black;
+	margin: 2%;
+}
+
+.article1 {
+	width: 42%;
+}
+.article2 {
+	width: 42%;
+}
+.article3 {
+	width: 89%;
+}
+section {
+	float: right;
+	font-weight: bold;
+	padding: 5px 40px 5px 40px;
+	border: 1.5px solid black;
+	font-family: helvetica;
+}
+
+#section1 {
+	background-color: pink; 
+}
+
+#section2 {
+	background-color: red;
+	color: white;
+}
+
+#section3 {
+	background-color: yellow;
+}
+
+p {
+	padding: 20px 10px 5px 10px;
+}
+}
+
+@media (max-width: 767px) {
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px 20px 50px 20px;
+}
+
+article{
+	display: inline-block;
+	background-color: gray;
+	border: 2px solid black;
+	margin: 10px 10px 10px 10px;
+}
+
+.article1 {
+	width: 90%;
+}
+.article2 {
+	width: 90%;
+}
+
+.article3 {
+	width: 90%;
+}
+section {
+	float: right;
+	font-weight: bold;
+	padding: 5px 40px 5px 40px;
+	border: 1.5px solid black;
+	font-family: helvetica;
+}
+
+#section1 {
+	background-color: pink; 
+}
+
+#section2 {
+	background-color: red;
+	color: white;
+}
+
+#section3 {
+	background-color: yellow;
+}
+
+p {
+	padding: 20px 10px 5px 10px;
+}
+}
